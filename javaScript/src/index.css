@@ -1,0 +1,50 @@
+.heading {
+  font-size: 72px;
+  color: #333;
+  text-align: center;
+}
+.post {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: lightblue;
+  flex: 1 1 calc(33.333% - 20px); /* Adjust the width of the squares */
+  box-sizing: border-box;
+}
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-weight: 900;
+}
+
+.active {
+  background-color: lightblue;
+}
